@@ -37,3 +37,53 @@ body {
   font-family: Roboto;
 }
 
+/* Header */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.084), rgba(0, 0, 0, 0.554)),
+    url("../assets/images/hero-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+header > h1 {
+  margin: 0;
+  color: var(--fifth-color);
+  font-size: 300%;
+  text-align: center;
+}
+header > h1 >span:first-child {
+    margin: 0;
+    color: var(--second-color);
+    font-size: 160%;
+    text-align: center;
+  }
+  header > h1 >span:nth-child(2) {
+    margin: 0;
+    color: var(--main-color);
+    font-size: 160%;
+    text-align: center;
+  }
+/* Navbar */
+header > nav {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+header img{
+    width: 80px;
+    height: 80px;
+}
+
+header > nav > ul{
+    list-style: none;
+    display: flex;
+}
+header > nav > li{
+    list-style: none;
+    display: flex;
+}
